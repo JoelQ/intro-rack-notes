@@ -3,10 +3,8 @@
   "HTTP_ACCEPT",
   "HTTP_ACCEPT_ENCODING",
   "HTTP_ACCEPT_LANGUAGE",
-  "HTTP_CACHE_CONTROL",
   "HTTP_CONNECTION",
   "HTTP_COOKIE",
-  "HTTP_DNT",
   "HTTP_HOST",
   "HTTP_UPGRADE_INSECURE_REQUESTS",
   "HTTP_USER_AGENT",
@@ -17,6 +15,7 @@
   "REQUEST_METHOD",
   "REQUEST_PATH",
   "REQUEST_URI",
+  "SCRIPT_NAME",
   "SERVER_NAME",
   "SERVER_PORT",
   "SERVER_PROTOCOL",
@@ -28,6 +27,6 @@
   "rack.multiprocess",
   "rack.multithread",
   "rack.run_once",
-  "rack.url_scheme", "SCRIPT_NAME",
-  "rack.version",
+  "rack.url_scheme",
+  "rack.version"
 ]
