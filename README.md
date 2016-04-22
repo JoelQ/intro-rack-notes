@@ -30,7 +30,7 @@
 * [Class](intro_rack_apps/hello_world.rb) or [proc](intro_rack_apps/proc.rb)
   based.
 * `env` is a big hash of stuff from the request. See [app the outputs its
-  `env`](intro_rack/env.rb) and [list of keys](intro_rack/rack_env_keys.rb) in
+  `env`](intro_rack_apps/env.rb) and [list of keys](intro_rack_apps/rack_env_keys.rb) in
   such an env
 
 ## Middleware
@@ -44,7 +44,7 @@
 Example middleware (logs time):
 
 * [App](middleware/app.rb)
-* [Logger middleware](middleware/logger_middleware.rb)
+* [Logger middleware](middleware/middleware_logger.rb)
 * [Runner](middleware/run.rb)
 
 ## Rack::Builder
@@ -57,7 +57,7 @@ Example middleware (logs time):
 Example middleware (logs time):
 
 * [App](builder/app.rb)
-* [Logger middleware](builder/logger_middleware.rb)
+* [Logger middleware](builder/middleware_logger.rb)
 * [Rackup file](builder/config.ru)
 
 ## Rails on Rack
